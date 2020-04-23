@@ -6,7 +6,7 @@ A simple vim plugin to convert the output of tree command to a markdown list
 If using pathogen, simply run the following command:
 
 ```sh
-git clone https://github.com/L04DB4L4NC3R/treemd.vim.git ~/.vim/bundle
+git clone https://github.com/L04DB4L4NC3R/treemd.vim.git ~/.vim/bundle/treemd.vim
 ```
 
 ![demo](https://user-images.githubusercontent.com/30529572/80057293-ce612f00-8543-11ea-9255-095c83112fd4.gif)
