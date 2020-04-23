@@ -1,5 +1,5 @@
 function! MarkDownTree()
-		%s/│//|%s/├──/*/|%s/└──/*/
+		%s/│//|%s/├──/*/|%s/└──/*/|%s/\%u00a0/ /g
 endfunction
 
 function! MarkDownTreeCmd(level) 
