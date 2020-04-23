@@ -1,0 +1,9 @@
+
+
+Treemd is a vim plugin which converts the typical output of the tree command in linux into markdown list format.
+
+
+| Mode | Mapping | Action |
+|:----:|:-------:|:------:|
+| Normal | tmd | Convert to markdown |
+| Normal | [num]tmt | Run tree command with level = num, in the current dir and convert to markdown | 
