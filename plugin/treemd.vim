@@ -1,5 +1,8 @@
 function! MarkDownTree()
 		%s/│//|%s/├──/*/|%s/└──/*/|%s/│//|%s/\%u00a0/ /g
+
+		" To convert md list to md reference list
+		%s/\* \(.*\)$/\* [\1](\1)/g
 endfunction
 
 function! MarkDownTreeCmd(level) 
